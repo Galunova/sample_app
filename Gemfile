@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
@@ -8,6 +8,7 @@ gem 'pg', '0.15.1'
 
 group :development, :test do
   gem 'rspec-rails', '2.13.1'
+  gem 'byebug'
 end
 
 group :test do
